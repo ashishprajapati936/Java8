@@ -1,7 +1,5 @@
 
 /*
- * Comment Section Below
- * 
  * Input is as per below
  * 
  * 	day,hour,second,minute
@@ -20,7 +18,6 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 class UnitBalancer {
-	String myTemp = null;
 
 	public static void main(String args[]) throws Exception {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
