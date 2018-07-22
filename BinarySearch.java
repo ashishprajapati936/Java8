@@ -1,5 +1,5 @@
+import java.util.Arrays;
 import java.util.Scanner;
-import java.util.stream.IntStream;
 
 public class BinarySearch {
 	public static void main(String[] args) throws Exception {
@@ -9,7 +9,7 @@ public class BinarySearch {
 		for (int i = 0; i < N; i++) {
 			array[i] = s.nextInt();
 		}
-		array = IntStream.of(array).sorted().toArray();
+		Arrays.sort(array);
 		int q = s.nextInt();
 		int[] queries = new int[q];
 		int low = 0;
@@ -35,4 +35,5 @@ public class BinarySearch {
 		}
 		return -1;
 	}
+
 }
