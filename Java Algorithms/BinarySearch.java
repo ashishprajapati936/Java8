@@ -1,6 +1,10 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
+/**
+Binary Search Algorithm
+*/
+
 public class BinarySearch {
 	public static void main(String[] args) throws Exception {
 		Scanner s = new Scanner(System.in);
