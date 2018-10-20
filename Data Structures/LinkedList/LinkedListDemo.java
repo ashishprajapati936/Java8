@@ -24,12 +24,22 @@ public class LinkedListDemo {
 		System.out.println(ls.search("C"));
 		System.out.println(ls.search("N"));
 
-		DoublyLinkedList<Integer> dls = new DoublyLinkedList<>();
+		DoublyLinkedList<Integer> dls = new DoublyLinkedList<Integer>();
 		dls.insertAtHead(1);
 		dls.insertAtHead(3);
 		dls.insertAtHead(9);
 		dls.insertAtHead(5);
 		System.out.println(dls);
 		System.out.println(dls.length());
+
+		DoublyLinkedList<Integer> ils = new DoublyLinkedList<Integer>();
+		ils.insertAtHead(1);
+		ils.insertAtHead(2);
+		ils.insertAtHead(3);
+		ils.insertAtHead(4);
+		ils.insertAtHead(5);
+		System.out.println(ils);
+
+		System.out.println(InsertionSort.sort(ils));
 	}
 }
