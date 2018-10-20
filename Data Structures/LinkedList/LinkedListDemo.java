@@ -1,7 +1,7 @@
 package com.linkedlist;
 
 /**
- * Singly Linked List Demo
+ * Singly and Doubly Linked List Demo
  * 
  * @author Ashish
  *
