@@ -23,5 +23,13 @@ public class LinkedListDemo {
 		System.out.println(ls.length());
 		System.out.println(ls.search("C"));
 		System.out.println(ls.search("N"));
+
+		DoublyLinkedList<Integer> dls = new DoublyLinkedList<>();
+		dls.insertAtHead(1);
+		dls.insertAtHead(3);
+		dls.insertAtHead(9);
+		dls.insertAtHead(5);
+		System.out.println(dls);
+		System.out.println(dls.length());
 	}
 }
